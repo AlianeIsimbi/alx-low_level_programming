@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdlib.h>
 #include "holberton.h"
 
 /**
@@ -11,7 +11,6 @@
 char *_strdup(char *str)
 {
 	char *duplicate;
-
 	unsigned int 1, len;
 
 	i = 0;
